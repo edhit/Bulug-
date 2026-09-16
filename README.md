@@ -14,9 +14,9 @@ https://edhit.github.io/Bulug-/
 * `.github/workflows/pages.yml` — деплой на GitHub Pages через GitHub Actions.
 * `.nojekyll` — отключает обработку Jekyll.
 
-Чтобы деплой заработал, в настройках репозитория нужно один раз выбрать
-**Settings → Pages → Build and deployment → Source: GitHub Actions**.
-После этого каждый push в ветку публикует сайт заново.
+Workflow сам включает Pages при первом запуске (`enablement: true`), так что
+заходить в **Settings → Pages** вручную не нужно. Каждый push в ветку
+публикует сайт заново.
 
 ## Локальный запуск
 
