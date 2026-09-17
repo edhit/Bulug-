@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - claude/github-pages-deploy-m99wct
+      - claude/nawawi-50-hadith
   workflow_dispatch:
 
 permissions:
